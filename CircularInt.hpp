@@ -1,6 +1,6 @@
 #include <iostream>
-using std::ostream, std::istream;
-
+using std::ostream;
+using std::istream;
 class CircularInt {
 	int _min, _max;   // smallest and largest possible values
 	int _count;       // how many different values are there (auxiliary field)
